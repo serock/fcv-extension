@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+"name": "fcv",
+"version": "1.0.0",
+"description": "Force cookie value(s)",
+"permissions": [
+  "cookies",
+  "*://*.example.com/*"
+],
+"background": {
+  "scripts": ["fcv-bg.js"],
+  "peristent": false
+}
+}
+
